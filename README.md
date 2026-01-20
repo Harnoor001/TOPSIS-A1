@@ -23,8 +23,9 @@ python <RollNumber>.py <InputDataFile> <Weights> <Impacts> <ResultFileName>
 - Impact symbols must be + or -
 
 ## Program 2: PyPI Package
-Coming Soon....
+https://pypi.org/project/topsis-harnoor-102303260
 
 ## Author
 Name: Harnoor Singh Khalsa
+
 Roll Number: 102303260

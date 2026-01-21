@@ -1,5 +1,5 @@
 # A1-Topsis
-**Name:** HArnoor Singh Khalsa
+**Name:** Harnoor Singh Khalsa
 **Roll No:** 102303260
 **Course:** Predictive Analytics UCS654 
 ---

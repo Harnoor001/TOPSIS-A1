@@ -1,6 +1,16 @@
-# A1-Topsis (Harnoor Singh Khalsa)
-Assignment for UCS654
-# TOPSIS Implementation
+# A1-Topsis
+**Name:** HArnoor Singh Khalsa
+**Roll No:** 102303260
+**Course:** Predictive Analytics UCS654  
+## What is TOPSIS?
+
+**TOPSIS** (Technique for Order Preference by Similarity to Ideal Solution) is a Multi-Criteria Decision Making (MCDM) method that helps in ranking alternatives based on their similarity to the ideal best solution and distance from the ideal worst solution.
+
+### Key Concept:
+- The best alternative should have the **shortest distance** from the ideal best solution
+- The best alternative should have the **farthest distance** from the ideal worst solution
+
+---# TOPSIS Implementation
 
 ## Program 1: Command Line Implementation
 Command to run:

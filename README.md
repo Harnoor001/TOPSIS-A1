@@ -44,7 +44,7 @@ https://pypi.org/project/topsis-harnoor-102303260
 ## Installation
 You can install this package via `pip`:
 ```bash
-pip install topsis-himanshu-102303244
+pip install topsis-harnoor-102303260
 ```
 
 ### Usage

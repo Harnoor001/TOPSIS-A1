@@ -1,7 +1,8 @@
 # A1-Topsis
 **Name:** HArnoor Singh Khalsa
 **Roll No:** 102303260
-**Course:** Predictive Analytics UCS654  
+**Course:** Predictive Analytics UCS654 
+---
 ## What is TOPSIS?
 
 **TOPSIS** (Technique for Order Preference by Similarity to Ideal Solution) is a Multi-Criteria Decision Making (MCDM) method that helps in ranking alternatives based on their similarity to the ideal best solution and distance from the ideal worst solution.
@@ -10,7 +11,8 @@
 - The best alternative should have the **shortest distance** from the ideal best solution
 - The best alternative should have the **farthest distance** from the ideal worst solution
 
----# TOPSIS Implementation
+---
+# TOPSIS Implementation
 
 ## Program 1: Command Line Implementation
 Command to run:
@@ -38,6 +40,12 @@ https://pypi.org/project/topsis-harnoor-102303260
 ## Program 3: Web Service For Topsis
 [Live Demo](https://topsis-website-6wr5.vercel.app/)
 ![Website Screenshot](screenshotwebsite.png)
+
+## Installation
+You can install this package via `pip`:
+```bash
+pip install topsis-himanshu-102303244
+```
 
 ### Usage
 The package can be used through the command line. It requires an input CSV or Excel file containing your data, a string of weights, a string of impacts, and the name of the output file.

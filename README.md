@@ -41,7 +41,7 @@ https://pypi.org/project/topsis-harnoor-102303260
 ## Live Demo
 [Live Demo](https://topsis-website-khalsa-itsolutions.vercel.app/)
 
-![Website Screenshot](screenshotwebsite.png)
+![Website Screenshot](website_SS1.png)
 
 ## Installation
 You can install this package via `pip`:

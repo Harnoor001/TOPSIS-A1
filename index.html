@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOPSIS Decision Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div class="page-bg"></div>
+  <main class="container">
+    <section class="hero card">
+      <p class="badge">Professional TOPSIS Web Service</p>
+      <h1>Make smarter multi-criteria decisions in minutes.</h1>
+      <p class="muted">Upload your data, configure criteria weights and impacts, and instantly get ranked alternatives with TOPSIS scores.</p>
+      <div class="hero-grid">
+        <div class="stat">
+          <span>Supports</span>
+          <strong>.csv &amp; .xlsx</strong>
+        </div>
+        <div class="stat">
+          <span>Method</span>
+          <strong>TOPSIS</strong>
+        </div>
+        <div class="stat">
+          <span>Output</span>
+          <strong>Ranked Table</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="card form-card">
+      <h2>Run Analysis</h2>
+      <p class="muted">Data format: first column = alternative name, remaining columns = numeric criteria.</p>
+
+      <div class="form-grid">
+        <label class="field file-field">
+          <span>Dataset</span>
+          <input type="file" id="fileInput" accept=".csv,.xlsx,.xls" />
+        </label>
+
+        <label class="field">
+          <span>Weights (comma-separated)</span>
+          <input type="text" id="weightsInput" placeholder="e.g. 1,1,1,1" />
+        </label>
+
+        <label class="field">
+          <span>Impacts (comma-separated)</span>
+          <input type="text" id="impactsInput" placeholder="e.g. -,+,+,+" />
+        </label>
+
+        <button id="analyzeBtn" class="button">Analyze with TOPSIS</button>
+      </div>
+
+      <p id="message" class="message" role="status"></p>
+    </section>
+
+    <section class="card result-card" id="resultSection" hidden>
+      <div class="result-header">
+        <h2>Ranked Results</h2>
+        <button id="downloadBtn" class="button secondary">Download CSV</button>
+      </div>
+      <div class="table-wrap">
+        <table id="resultTable"></table>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
